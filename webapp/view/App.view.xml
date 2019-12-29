@@ -4,10 +4,13 @@
    xmlns:mvc="sap.ui.core.mvc">
     <Button 
         text="Say World" 
-        press=".onShowHello"
+        press=".openDialog"
     />
     <Input
-      value="{/recipient/name}"
+      value="{
+        path: '/recipient/name',
+				type: 'sap.ui.model.type.Currency'
+      }"
       description="Hello {/recipient/name}"
       valueLiveUpdate="true"
       width="60%"/>
