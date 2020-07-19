@@ -14,6 +14,6 @@
     "@openui5/sap.tnt": "^1.73.1",
     "@openui5/sap.ui.core": "^1.72.1",
     "@openui5/themelib_sap_belize": "^1.72.1",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   }
 }
